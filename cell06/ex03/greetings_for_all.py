@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 def greetings(name = "noble stranger."):
-    if not isinstance(name, str):
+    if not isinstance(name):
         print("Error! It was not a name.")
     else:
         print("Hello,",name)
